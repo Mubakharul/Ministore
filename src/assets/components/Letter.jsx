@@ -10,10 +10,10 @@ function Letter() {
 
           <div className="text-center lg:text-left">
             <h1 className="text-2xl md:text-3xl text-white font-bold">
-              আমাদের নিউজলেটারে সাবস্ক্রাইব করুন
+              Subscribe to our newsletter
             </h1>
             <p className="text-[#b0b0b0] text-sm mt-2 max-w-md">
-              আপনার ইমেল ইনবক্সে আপডেট পেতে আমাদের মেইলিং লিস্টে সাবস্ক্রাইব করুন।
+              Subscribe to our mailing list to get updates in your email inbox.
             </p>
           </div>
 
@@ -22,12 +22,12 @@ function Letter() {
             
             <input
               type="email"
-              placeholder="আপনার ইমেল লিখুন"
+              placeholder="Enter your email"
               className="w-full sm:w-72 px-4 py-[16px] bg-[#EEEEEE] text-black placeholder:text-[#888] border border-[#444] focus:outline-none focus:ring-2 transition duration-300"
             />
 
             <button className="w-full sm:w-auto bg-[#72AEC8] text-white font-semibold px-[40px] py-[16px] hover:bg-[#5d8fa3] transition duration-300">
-              সাবস্ক্রাইব
+              Subscribe
             </button>
 
           </div>

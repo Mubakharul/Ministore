@@ -16,11 +16,11 @@ function Header() {
 
       
         <nav className="hidden md:flex items-center gap-0 md:gap-x-4 lg:gap-8 text-[15px] lg:text-[17px] font-medium text-gray-700">
-          <a href="#" className="hover:text-blue-500">হোম</a>
-          <a href="#" className="hover:text-blue-500">পেজ</a>
-          <a href="#" className="hover:text-blue-500">সম্পর্কে</a>
-          <a href="#" className="hover:text-blue-500">ব্লগ</a>
-          <a href="#" className="hover:text-blue-500">যোগাযোগ</a>
+          <a href="#" className="hover:text-blue-500">Home</a>
+          <a href="#" className="hover:text-blue-500">Shop</a>
+          <a href="#" className="hover:text-blue-500">About</a>
+          <a href="#" className="hover:text-blue-500">Blog</a>
+          <a href="#" className="hover:text-blue-500">Contact</a>
         </nav>
 
       
@@ -42,11 +42,11 @@ function Header() {
       
       <div className={`md:hidden bg-none px-6 pb-4 transition-all duration-300 ${menuOpen ? 'block' : 'hidden'}`}>
         <nav className="flex flex-col gap-4 text-gray-700 font-medium">
-          <a href="#">হোম</a>
-          <a href="#">পেজ</a>
-          <a href="#">সম্পর্কে</a>
-          <a href="#">ব্লগ</a>
-          <a href="#">যোগাযোগ</a>
+          <a href="#">Home</a>
+          <a href="#">Shop</a>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
         </nav>
       </div>
 

@@ -5,26 +5,26 @@ const Choseus = () => {
     {
       id: 1,
       icon: "cartb.png",
-      title: "বিনামূল্যে ডেলিভারি",
-      desc: "$200 এর উপরে সব অর্ডারের জন্য",
+      title: "Free Delivery",
+      desc: "On all orders over $200",
     },
     {
       id: 2,
       icon: "q.png", 
-      title: "মানের গ্যারান্টি",
-      desc: "বিশেষজ্ঞদের দ্বারা যাচাইকৃত",
+      title: "Quality Guarantee",
+      desc: "Verified by experts",
     },
     {
       id: 3,
       icon: "offers.png", 
-      title: "দৈনিক অফার",
-      desc: "25% পর্যন্ত সেভ করুন",
+      title: "Daily Offers",
+      desc: "Save up to 25%",
     },
     {
       id: 4,
       icon: "s.png", 
-      title: "নিরাপদ পেমেন্ট",
-      desc: "100% নিরাপদ চেকআউট",
+      title: "Secure Payment",
+      desc: "100% secure checkout",
     },
   ];
 

@@ -1,28 +1,25 @@
 import React, { useState, useEffect } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-
-// 👉 যদি images public folder এ থাকে (public/cot.png, public/Stars.png)
-// তাহলে direct string ব্যবহার করা যাবে
+import { AnimatePresence, motion } from "framer-motion";
 
 function Comment() {
   const comments = [
     {
       img: "/cot.png",
-      text: "এই মোবাইল ফোনটি দ্রুত প্রসেসর, উজ্জ্বল ডিসপ্লে এবং দীর্ঘস্থায়ী ব্যাটারি লাইফ সহ চিত্তাকর্ষক পারফরম্যান্স অফার করে। এর ক্যামেরা বিভিন্ন আলোর অবস্থায় তীক্ষ্ণ ফটো ক্যাপচার করে, এটিকে ব্যবহারের জন্য একটি নির্ভরযোগ্য পছন্দ করে তোলে।",
+      text: "This mobile phone delivers impressive performance with a fast processor, bright display, and long-lasting battery life. Its camera captures sharp photos in a variety of lighting conditions, making it a reliable choice.",
       stars: "/Stars.png",
-      name: "এভা",
+      name: "Eva",
     },
     {
       img: "/cot.png",
-      text: "এই পণ্যটি অসাধারণ মানের এবং আমার প্রত্যাশা পূরণ করেছে। ডেলিভারি দ্রুত ছিল এবং প্যাকেজিং ভালো ছিল। আমি এটি সুপারিশ করব।",
+      text: "This product is excellent quality and met my expectations. Delivery was fast and the packaging was great. I would recommend it.",
       stars: "/Stars.png",
-      name: "এনমা",
+      name: "Emma",
     },
     {
       img: "/cot.png",
-      text: "এই মোবাইল ফোনটি দ্রুত প্রসেসর, উজ্জ্বল ডিসপ্লে এবং দীর্ঘস্থায়ী ব্যাটারি লাইফ সহ চিত্তাকর্ষক পারফরম্যান্স অফার করে। এর ক্যামেরা বিভিন্ন আলোর অবস্থায় তীক্ষ্ণ ফটো ক্যাপচার করে, এটিকে ব্যবহারের জন্য একটি নির্ভরযোগ্য পছন্দ করে তোলে।",
+      text: "This mobile phone delivers impressive performance with a fast processor, bright display, and long-lasting battery life. Its camera captures sharp photos in a variety of lighting conditions, making it a reliable choice.",
       stars: "/Stars.png",
-      name: "আলেক্স",
+      name: "Alex",
     },
   ];
 
@@ -41,7 +38,7 @@ function Comment() {
   return (
     <section className="flex flex-col items-center gap-4 mt-10 px-8 md:px-16 lg:px-20 py-6">
       <div className="flex flex-col items-center text-center max-w-xl">
-        
+
         <AnimatePresence mode="wait">
           <motion.div
             key={index}

@@ -14,7 +14,7 @@ function Insta() {
       
       
       <h1 className="text-3xl font-bold text-center uppercase mb-8 tracking-wider">
-        আমাদের ইনস্টা শপ করুন
+        Shop Our Insta
       </h1>
 
       
